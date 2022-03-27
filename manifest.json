@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "WorldeSolver",
+  "description": "Tells you the answer of wordle",
+  "content_scripts": [
+    {
+      "matches": ["https://www.nytimes.com/games/wordle/index.html"],
+      "js": ["injectRightAnswer.js"]
+    }
+  ]
+}
